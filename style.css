@@ -1,0 +1,31 @@
+.container{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#wheel{
+    height: 515px;
+    transition-property: all;
+    transition-duration: 7s;
+    transition-timing-function: ease;
+    /* transform: rotate(10deg); */
+}
+#arrow{
+    height: 80px;
+}
+#btn{
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: yellow;
+    border-radius: 18px;
+    border: 2px solid black;
+    color: black;
+}
+#btn:hover{
+    background-color: black;
+    border: 2px solid yellow;
+    color: yellow;
+    cursor: pointer;
+}
