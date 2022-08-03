@@ -1,21 +1,28 @@
-.container{
+body {
+    background-color: #000d3b;
+}
+
+.container {
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-#wheel{
-    height: 515px;
-    transition-property: all;
-    transition-duration: 7s;
+
+#wheel {
+    /* height: 515px; */
+    height: 65vh;
+    transition-property: rotate;
+    transition-duration: 3s;
     transition-timing-function: ease;
-    /* transform: rotate(10deg); */
 }
-#arrow{
+
+#arrow {
     height: 80px;
 }
-#btn{
+
+#btnSpin {
     margin: 5px;
     padding: 10px 20px;
     background-color: yellow;
@@ -23,7 +30,25 @@
     border: 2px solid black;
     color: black;
 }
-#btn:hover{
+
+#btnReset {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: yellow;
+    border-radius: 18px;
+    border: 2px solid black;
+    color: black;
+    display: none;
+}
+
+#btnSpin:hover {
+    background-color: black;
+    border: 2px solid yellow;
+    color: yellow;
+    cursor: pointer;
+}
+
+#btnReset:hover {
     background-color: black;
     border: 2px solid yellow;
     color: yellow;

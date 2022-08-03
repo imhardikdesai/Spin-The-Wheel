@@ -13,7 +13,11 @@
     <div class="container">
         <img id="arrow" src="img/Arrow.png" alt="Arrow">
         <img id="wheel" src="img/wheel.png" alt="wheel">
-        <button id="btn">SPIN</button>
+        <div style="display: flex;">
+            <button id="btnSpin" onclick="spinWheel()">SPIN</button>
+            <a style="text-decoration: none;" href="/"><button id="btnReset">RESET</button></a>
+        </div>
+
     </div>
     <script src="app.js"></script>
 </body>
